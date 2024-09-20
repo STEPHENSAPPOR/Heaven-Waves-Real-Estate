@@ -11,14 +11,13 @@ const Hero = () => {
       <div className="absolute top-0 right-0 rounded-full bg-[#04a7ff]/30 dark:bg-[#04a7ff]/50 w-72 h-72 -z-10 blur-[120px]"></div>
       <div className="flex-1 basis-[20rem]">
         <h1 className="text-4xl font-bold capitalize md:text-5xl">
-          property consisting <br /> land and buildings
+          heaven waves real estate <br /> & construction
         </h1>
         <div className="pl-3 mt-5 border-l-4 border-primary">
           <p>
-          Heaven Waves Real Estate and Constructions is a well-established construction
-           and development firm in Ghana. They provide comprehensive services, including groundbreaking, 
-           infrastructure, concrete work, framing, and final construction, with their own heavy equipment.
-           The company is known for its experienced management team, dedicated foreman, and strong reputation.
+          We are a well-established construction
+           and development firm in Ghana. We provide comprehensive services, including groundbreaking, 
+           infrastructure, concrete work, framing, and final construction, with heavy equipment.
           </p>
         </div>
         <button className="mt-6 btn btn-primary">get started</button>

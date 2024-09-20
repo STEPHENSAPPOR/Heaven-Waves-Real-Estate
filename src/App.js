@@ -33,6 +33,7 @@ import { closeDropdown } from "./features/uiSlice";
 import Dropdown from "./components/common/DropDown";
 import NewsLetter from "./components/common/NewsLetter";
 import Loader from "./components/common/Loader";
+import Book from "./components/book/Book";
 function App() {
   const [showButton, setShowButton] = useState(false);
   const [showLoader, setShowLoader] = useState(false);
@@ -86,6 +87,7 @@ function App() {
           <Route path="/blog-3" element={<BlogThree />} />
           <Route path="/blog-4" element={<BlogFour />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/booking" element={< Book />} />
           <Route path="/portifolio" element={<Portifolio />} />
           <Route path="/portifolio-2" element={<PortifolioTwo />} />
           <Route path="/team" element={<Team />} />

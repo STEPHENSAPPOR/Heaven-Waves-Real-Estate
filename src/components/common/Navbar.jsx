@@ -57,7 +57,7 @@ const Navbar = () => {
     >
       <Link to="/" className="flex-shrink-0 flex-align-center gap-x-1">
         <BiBuildingHouse className="text-3xl text-primary" />
-        <h1 className="hidden md:block">MartVilla</h1>
+        <h1 className="hidden md:block">HeavenWavesRealEstate</h1>
       </Link>
 
       <div className="flex-align-center gap-x-4">
